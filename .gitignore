@@ -1,0 +1,32 @@
+thumbs.db
+Se7evidas.7Z
+
+*.backup*
+*.bak*
+*.wad.backup*
+*.wad.bak*
+*.tmp*
+*.ncb
+*.suo
+*.pdb
+*.ilk
+*.aps
+*.user
+acs.err
+*.lnk
+*.*.save
+(1)Log.txt
+*.o
+/*.PK3
+*.sublime-workspace
+*._ignore_.*
+*.blend1
+*.blend2
+*.blend3
+
+/Editing/Font/AdobeFnt*.lst
+/C_Source/obj/
+/Tools/PreprocessorThingy/obj/
+/Tools/PreprocessorThingy/bin/
+/PK3 Source/acs
+/PK3 Source/S7ZScript/RPG Systems/ShopData
