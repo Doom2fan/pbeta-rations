@@ -18,19 +18,29 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-mixin class UaS_2LBottleMixin {
-	default {
-		UaS_Consumable.Fluid 2000;
-		UaS_Consumable.Bulk 20;
+class PBR_UaS_PacocaMRE : UaS_Consumable {
+    mixin UaS_SingleSnack;
 
-		+UaS_Consumable.Drinkable +UaS_Consumable.Packaged +UaS_Consumable.Resealable
-	}
-}
+    default {
+        UaS_Consumable.Calories 3000;
+        UaS_Consumable.Bulk 15;
 
-mixin class UaS_SingleSnack {
-	default {
-		UaS_Consumable.Fluid 0;
+        UaS_Consumable.Description "$UAS_PB_RATIONS_PACOCA_DESC";
+        Inventory.PickupMessage "$UAS_PB_RATIONS_PACOCA_PICKUP";
+        Tag "$UAS_PB_RATIONS_PACOCA_TAG";
 
-		+UaS_Consumable.Packaged;
-	}
+        inventory.Icon "PBR0B0";
+        scale 0.25;
+    }
+
+    override void Messages () {
+        AddConsumeText ("$PB_RATIONS_PACOCA_CONSUME_1");
+        AddConsumeText ("$PB_RATIONS_PACOCA_CONSUME_2");
+    }
+
+    states (actor) {
+    Spawn:
+        PBR0 B -1;
+        stop;
+    }
 }

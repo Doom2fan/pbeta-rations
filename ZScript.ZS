@@ -22,3 +22,4 @@ version "4.10.0"
 
 #include "ZScript/pb-rations/Mixins.ZS"
 #include "ZScript/pb-rations/Bottles.ZS"
+#include "ZScript/pb-rations/Snacks.ZS"

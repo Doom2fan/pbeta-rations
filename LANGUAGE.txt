@@ -11,3 +11,10 @@ PB_RATIONS_DOLLY_CONSUME_4 = "How's this stuff still around?";
 PB_RATIONS_DOLLY_CONSUME_RARE_1 = "Dolly, Dolly guaraná. Dolly, o melhor!";
 PB_RATIONS_DOLLY_CONSUME_RARE_2 = "Oi pessoal, eu sou o Dollynho, seu amiguinho, vamos cantar?";
 PB_RATIONS_DOLLY_CONSUME_RARE_3 = "Dolly guaraná, o sabor brasileiro!";
+
+// Paçocas
+UAS_PB_RATIONS_PACOCA_TAG = "Tub of Paçoquitas";
+UAS_PB_RATIONS_PACOCA_DESC = "A tub of individually-wrapped cork-style paçocas, a Brazilian peanut-based candy.";
+UAS_PB_RATIONS_PACOCA_PICKUP = "Picked up a tub of paçoquitas.";
+UAS_PB_RATIONS_PACOCA_CONSUME_1 = "Tastes peanutty.";
+UAS_PB_RATIONS_PACOCA_CONSUME_2 = "Tasty!";
