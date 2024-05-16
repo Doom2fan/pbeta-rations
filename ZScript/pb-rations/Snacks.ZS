@@ -52,9 +52,9 @@ class PBetaR_UaS_CoxinhaMRE : UaS_Consumable {
     // TODO: Apply these.
     enum MREFlags {
         FLAG_INITTED = 1,
-        FLAG_SOGGY = 1,
-        FLAG_NEEDSMORESEASONING = 1 << 1,
-        FLAG_DOUGHY = 1 << 1,
+        FLAG_SOGGY = 1 << 1,
+        FLAG_NEEDSMORESEASONING = 1 << 2,
+        FLAG_DOUGHY = 1 << 3,
     };
 
     default {
