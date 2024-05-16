@@ -18,3 +18,11 @@ PBETA_RATIONS_PACOCA_DESC = "A tub of individually-wrapped cork-style paçocas, 
 PBETA_RATIONS_PACOCA_PICKUP = "Picked up a tub of paçoquitas.";
 PBETA_RATIONS_PACOCA_CONSUME_1 = "Tastes peanutty.";
 PBETA_RATIONS_PACOCA_CONSUME_2 = "Tasty!";
+
+// Coxinha
+PBETA_RATIONS_COXINHA_TAG = "A coxinha";
+PBETA_RATIONS_COXINHA_DESC = "A teardrop-shaped Brazilian food, made from shredded chicken wrapped in fried dough.";
+PBETA_RATIONS_COXINHA_PICKUP = "Picked up a coxinha.";
+PBETA_RATIONS_COXINHA_CONSUME_SOGGY = "The dough feels a bit soggy from being reheated.";
+PBETA_RATIONS_COXINHA_CONSUME_NEEDSMORESEASONING = "The chicken could use some more seasoning.";
+PBETA_RATIONS_COXINHA_CONSUME_DOUGHY = "This one has a bit too much dough.";
