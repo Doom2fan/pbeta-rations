@@ -19,10 +19,9 @@
  */
 
 class PBR_UaS_PacocaMRE : UaS_Consumable {
-    mixin UaS_SingleSnack;
-
     default {
         UaS_Consumable.Calories 3000;
+        UaS_Consumable.Fluid 0;
         UaS_Consumable.Bulk 15;
 
         UaS_Consumable.Description "$UAS_PB_RATIONS_PACOCA_DESC";
@@ -31,6 +30,8 @@ class PBR_UaS_PacocaMRE : UaS_Consumable {
 
         inventory.Icon "PBR0B0";
         scale 0.25;
+
+        +UaS_Consumable.Packaged +UaS_Consumable.Resealable
     }
 
     override void Messages () {
