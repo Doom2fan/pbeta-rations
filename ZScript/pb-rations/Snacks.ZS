@@ -18,15 +18,15 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-class PBR_UaS_PacocaMRE : UaS_Consumable {
+class PBetaR_UaS_Pacoquitas : UaS_Consumable {
     default {
         UaS_Consumable.Calories 3000;
         UaS_Consumable.Fluid 0;
         UaS_Consumable.Bulk 15;
 
-        UaS_Consumable.Description "$UAS_PB_RATIONS_PACOCA_DESC";
-        Inventory.PickupMessage "$UAS_PB_RATIONS_PACOCA_PICKUP";
-        Tag "$UAS_PB_RATIONS_PACOCA_TAG";
+        UaS_Consumable.Description "$PBETA_RATIONS_PACOCA_DESC";
+        Inventory.PickupMessage "$PBETA_RATIONS_PACOCA_PICKUP";
+        Tag "$PBETA_RATIONS_PACOCA_TAG";
 
         inventory.Icon "PBR0B0";
         scale 0.25;
@@ -35,8 +35,8 @@ class PBR_UaS_PacocaMRE : UaS_Consumable {
     }
 
     override void Messages () {
-        AddConsumeText ("$PB_RATIONS_PACOCA_CONSUME_1");
-        AddConsumeText ("$PB_RATIONS_PACOCA_CONSUME_2");
+        AddConsumeText ("$PBETA_RATIONS_PACOCA_CONSUME_1");
+        AddConsumeText ("$PBETA_RATIONS_PACOCA_CONSUME_2");
     }
 
     states (actor) {

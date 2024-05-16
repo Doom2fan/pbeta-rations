@@ -18,7 +18,7 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-mixin class UaS_2LBottleMixin {
+mixin class PBetaR_UaS_2LBottleMixin {
 	default {
 		UaS_Consumable.Fluid 2000;
 		UaS_Consumable.Bulk 20;
@@ -27,7 +27,7 @@ mixin class UaS_2LBottleMixin {
 	}
 }
 
-mixin class UaS_SingleSnack {
+mixin class PBetaR_UaS_SingleSnack {
 	default {
 		UaS_Consumable.Fluid 0;
 

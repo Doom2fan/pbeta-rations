@@ -1,20 +1,20 @@
 [default en enu]
 
 // Dolly
-PB_RATIONS_DOLLY_TAG = "Dolly guaraná";
-PB_RATIONS_DOLLY_DESC = "An infamous guaraná soda from Brazil, widely known for its mascot and marketing campaigns.";
-PB_RATIONS_DOLLY_PICKUP = "Picked up a 2L bottle of Dolly Guaraná.";
-PB_RATIONS_DOLLY_CONSUME_1 = "It tastes bland.";
-PB_RATIONS_DOLLY_CONSUME_2 = "Doesn't really taste like a guaraná soda.";
-PB_RATIONS_DOLLY_CONSUME_3 = "You've had better.";
-PB_RATIONS_DOLLY_CONSUME_4 = "How's this stuff still around?";
-PB_RATIONS_DOLLY_CONSUME_RARE_1 = "Dolly, Dolly guaraná. Dolly, o melhor!";
-PB_RATIONS_DOLLY_CONSUME_RARE_2 = "Oi pessoal, eu sou o Dollynho, seu amiguinho, vamos cantar?";
-PB_RATIONS_DOLLY_CONSUME_RARE_3 = "Dolly guaraná, o sabor brasileiro!";
+PBETA_RATIONS_DOLLY_TAG = "Dolly guaraná";
+PBETA_RATIONS_DOLLY_DESC = "An infamous guaraná soda from Brazil, widely known for its mascot and marketing campaigns.";
+PBETA_RATIONS_DOLLY_PICKUP = "Picked up a 2L bottle of Dolly Guaraná.";
+PBETA_RATIONS_DOLLY_CONSUME_1 = "It tastes bland.";
+PBETA_RATIONS_DOLLY_CONSUME_2 = "Doesn't really taste like a guaraná soda.";
+PBETA_RATIONS_DOLLY_CONSUME_3 = "You've had better.";
+PBETA_RATIONS_DOLLY_CONSUME_4 = "How's this stuff still around?";
+PBETA_RATIONS_DOLLY_CONSUME_RARE_1 = "Dolly, Dolly guaraná. Dolly, o melhor!";
+PBETA_RATIONS_DOLLY_CONSUME_RARE_2 = "Oi pessoal, eu sou o Dollynho, seu amiguinho, vamos cantar?";
+PBETA_RATIONS_DOLLY_CONSUME_RARE_3 = "Dolly guaraná, o sabor brasileiro!";
 
 // Paçocas
-UAS_PB_RATIONS_PACOCA_TAG = "Tub of Paçoquitas";
-UAS_PB_RATIONS_PACOCA_DESC = "A tub of individually-wrapped cork-style paçocas, a Brazilian peanut-based candy.";
-UAS_PB_RATIONS_PACOCA_PICKUP = "Picked up a tub of paçoquitas.";
-UAS_PB_RATIONS_PACOCA_CONSUME_1 = "Tastes peanutty.";
-UAS_PB_RATIONS_PACOCA_CONSUME_2 = "Tasty!";
+PBETA_RATIONS_PACOCA_TAG = "Tub of Paçoquitas";
+PBETA_RATIONS_PACOCA_DESC = "A tub of individually-wrapped cork-style paçocas, a Brazilian peanut-based candy.";
+PBETA_RATIONS_PACOCA_PICKUP = "Picked up a tub of paçoquitas.";
+PBETA_RATIONS_PACOCA_CONSUME_1 = "Tastes peanutty.";
+PBETA_RATIONS_PACOCA_CONSUME_2 = "Tasty!";

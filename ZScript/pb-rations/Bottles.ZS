@@ -18,13 +18,13 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-class PBR_UaS_DollyMRE : UaS_Consumable {
-    mixin UaS_2LBottleMixin;
+class PBetaR_UaS_DollyBottle : UaS_Consumable {
+    mixin PBetaR_UaS_2LBottleMixin;
 
     default {
-        UaS_Consumable.Description "$PB_RATIONS_DOLLY_DESC";
-        inventory.PickupMessage "$PB_RATIONS_DOLLY_PICKUP";
-        tag "$PB_RATIONS_DOLLY_TAG";
+        UaS_Consumable.Description "$PBETA_RATIONS_DOLLY_DESC";
+        inventory.PickupMessage "$PBETA_RATIONS_DOLLY_PICKUP";
+        tag "$PBETA_RATIONS_DOLLY_TAG";
 
         UaS_Consumable.Calories 770;
 
@@ -34,14 +34,14 @@ class PBR_UaS_DollyMRE : UaS_Consumable {
 
     override void Messages () {
         for (int i = 0; i < 5; i++) {
-            AddConsumeText ("$PB_RATIONS_DOLLY_CONSUME_1");
-            AddConsumeText ("$PB_RATIONS_DOLLY_CONSUME_2");
-            AddConsumeText ("$PB_RATIONS_DOLLY_CONSUME_3");
-            AddConsumeText ("$PB_RATIONS_DOLLY_CONSUME_4");
+            AddConsumeText ("$PBETA_RATIONS_DOLLY_CONSUME_1");
+            AddConsumeText ("$PBETA_RATIONS_DOLLY_CONSUME_2");
+            AddConsumeText ("$PBETA_RATIONS_DOLLY_CONSUME_3");
+            AddConsumeText ("$PBETA_RATIONS_DOLLY_CONSUME_4");
         }
-        AddConsumeText ("$PB_RATIONS_DOLLY_CONSUME_RARE_1");
-        AddConsumeText ("$PB_RATIONS_DOLLY_CONSUME_RARE_2");
-        AddConsumeText ("$PB_RATIONS_DOLLY_CONSUME_RARE_3");
+        AddConsumeText ("$PBETA_RATIONS_DOLLY_CONSUME_RARE_1");
+        AddConsumeText ("$PBETA_RATIONS_DOLLY_CONSUME_RARE_2");
+        AddConsumeText ("$PBETA_RATIONS_DOLLY_CONSUME_RARE_3");
     }
 
     states (actor) {
