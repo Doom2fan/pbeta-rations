@@ -26,3 +26,8 @@ PBETA_RATIONS_COXINHA_PICKUP = "Picked up a coxinha.";
 PBETA_RATIONS_COXINHA_CONSUME_SOGGY = "The dough feels a bit soggy from being reheated.";
 PBETA_RATIONS_COXINHA_CONSUME_NEEDSMORESEASONING = "The chicken could use some more seasoning.";
 PBETA_RATIONS_COXINHA_CONSUME_DOUGHY = "This one has a bit too much dough.";
+
+// 4mm "snack"
+PBETA_RATIONS_4MM_SNACK_TAG = "An individually-wrapped 4mm cartridge";
+PBETA_RATIONS_4MM_SNACK_DESC = "This is a joke, right? This is a real cartridge in a plastic wrapper.\n\nYou're not really gonna try to eat this, are you?";
+PBETA_RATIONS_4MM_SNACK_PICKUP = "Picked up an individually-wrapped 4mm cartridge.      What?";

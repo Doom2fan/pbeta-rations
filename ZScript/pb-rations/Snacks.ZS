@@ -69,3 +69,40 @@ class PBetaR_UaS_CoxinhaMRE : UaS_Consumable {
         scale 0.5;
     }
 }
+
+class PBetaR_UaS_4mmSnack : UaS_Consumable {
+    mixin PBetaR_UaS_SingleSnack;
+
+    default {
+        UaS_Consumable.Calories 1;
+        UaS_Consumable.Fluid -100;
+        UaS_Consumable.Bulk 1;
+
+        UaS_Consumable.Description "$PBETA_RATIONS_4MM_SNACK_DESC";
+        Inventory.PickupMessage "$PBETA_RATIONS_4MM_SNACK_PICKUP";
+        Tag "$PBETA_RATIONS_4MM_SNACK_TAG";
+
+        Inventory.Icon "RCLSA3A7";
+
+        XScale 0.5;
+        YScale 0.6;
+    }
+
+    override void OnConsume () {
+        if (random (1, 15) == 1) {
+            Owner.A_SpawnItemEx ("HDExplosion", 12, 0, Owner.Height - 8);
+            Owner.A_Explode (32, 32, XF_NotMissile | XF_HurtSource);
+            Owner.DamageMobj (self, Owner, 50, "hot", DMG_No_Armor | DMG_Thrustless);
+        } else {
+            Owner.A_StartSound ("weapons/bigcrack", 8, CHANF_Overlap);
+            Owner.A_SpawnItemEx ("HDSmokeChunk", 12, 0, Owner.Height - 8, 4, fRandom (-2, 2), fRandom (2, 4));
+            Owner.DamageMobj (self, Owner, 1, "hot", DMG_No_Armor | DMG_Thrustless);
+        }
+    }
+
+    States {
+    Spawn:
+        RCLS A -1;
+        stop;
+    }
+}
